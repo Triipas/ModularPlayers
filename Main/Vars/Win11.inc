@@ -1,0 +1,9 @@
+[Variables]
+Scale=0.8
+Blur=None
+BlurCorner=Round
+Stroke=1
+PrimaryColor=20,20,20
+PrimaryOpacity=50
+BorderColor=255,255,255
+BorderOpacity=25
