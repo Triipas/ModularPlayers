@@ -1,7 +1,7 @@
 
 [S]
-FontFace=Open Sans
+FontFace=Product Sans
 FontColor=#OppositeColor#
-FontSize=12
+FontSize=15
 AntiAlias=1
 SolidColor=0,0,0,1

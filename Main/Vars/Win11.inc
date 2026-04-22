@@ -1,9 +1,9 @@
 [Variables]
 Scale=0.8
-Blur=None
-BlurCorner=Round
-Stroke=1
+Blur=Acrylic
+BlurCorner=None
+Stroke=0
 PrimaryColor=20,20,20
-PrimaryOpacity=50
+PrimaryOpacity=0
 BorderColor=255,255,255
-BorderOpacity=25
+BorderOpacity=0

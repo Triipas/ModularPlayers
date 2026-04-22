@@ -3,11 +3,11 @@ GW=(450*#scale#)
 GH=(170*#scale#)
 P=(22*#Scale#)
 
-Shuffle=0
+Shuffle=1
 Control=1
-Repeat=0
-Heart=0
-Prog=0
+Repeat=1
+Heart=1
+Prog=1
 ;==============================================================================================
 ;==============================================================================================
 ;==============================================================================================
@@ -43,7 +43,7 @@ Corner=#BlurCorner#
 Meter=Shape
 X=#Stroke#
 Y=#Stroke#
-Shape=Rectangle 0,0,#GW#,#GH#,[&Func:returnCorner()] | StrokeWidth (#Stroke#*2) | Fill Color #PrimaryColor#,#PrimaryOpacity# | Stroke Color #BorderColor#,#BorderOpacity#
+Shape=Rectangle 0,0,#GW#,#GH#,20 | StrokeWidth (#Stroke#*2) | Fill Color #PrimaryColor#,#PrimaryOpacity# | Stroke Color #BorderColor#,#BorderOpacity#
 DynamicVariables=1
 
 [Shadow]
@@ -78,7 +78,7 @@ ClipString=2
 StringAlign=LeftCenter
 FontWeight=600
 Text=%1#CRLF#%2
-FontSize=(15*#scale#)
+FontSize=18
 FontColor=255,255,255
 InLinePattern=#CRLF#(.*)
 InlineSetting=Size | (10*#scale#)
